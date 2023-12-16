@@ -234,7 +234,7 @@ const SupermarketStoreManagement = ({
   return (
     <div
       className="modal__container "
-      style={{ width: "100%", boxSizing: "content-box" }}
+      style={{ width: "max-content", boxSizing: "content-box" }}
     >
       <div className="modal__container-header">
         <h3 className="modal__container-header-title">
