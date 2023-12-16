@@ -1,0 +1,52 @@
+.buttonRecovery {
+  position: absolute;
+  bottom: 4%;
+  outline: none;
+  width: max-content;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  height: 36px;
+  padding: 7px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary);
+  gap: 10px;
+  border-radius: 3px;
+  background: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--primary);
+  cursor: pointer;
+  transition: 0.3s linear all;
+}
+
+.buttonRecovery:hover {
+  background: var(--primary-light);
+  color: white;
+}
+
+.filter_button {
+  width: 100px;
+  height: 36px;
+  padding: 8px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+  border: 1px solid #c4cdd5;
+  cursor: pointer;
+  transition: 0.3s linear all;
+}
+.filter_button:hover {
+  border: 1px solid var(--primary-light);
+  color: var(--primary-light);
+}
